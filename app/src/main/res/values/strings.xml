@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sampler</string>
+    <string name="decibel_format">%1$.1f dB</string>
+    <string name="btnStop_text">Stop</string>
+    <string name="btnReset_text">Reset</string>
+    <string name="btnRecord_text"> Record</string>
+    <string name="btnPlay_text">Play</string>
+</resources>
