@@ -1,8 +1,32 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity" >
-    <item android:id="@+id/action_settings"
-        android:title="@string/app_name"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <!--<item android:id="@+id/action_file_name"-->
+    <!--android:ic_launcher_graph="@drawable/powered_by_google_light"-->
+    <!--android:hint="@string/action_file_name_text_hint"-->
+    <!--android:imeOptions="actionDone"-->
+    <!--android:title="@string/action_file_name_title"-->
+    <!--android:showAsAction="always"-->
+    <!--android:actionViewClass="android.widget.EditText" />-->
+
+
+    <item
+        android:id="@+id/action_bar_layout"
+        android:actionLayout="@layout/action_bar_edit_text"
+        android:showAsAction="always"
+        android:title="Action Bar Layout"/>
+
+    <!--<item-->
+    <!--android:id="@+id/action_save"-->
+    <!--android:showAsAction="always"-->
+    <!--android:ic_launcher_graph="@drawable/ic_google_drive"-->
+    <!--android:title="Save"/>-->
+
+    <!--<item-->
+    <!--android:id="@+id/action_record"-->
+    <!--android:showAsAction="always"-->
+    <!--android:ic_launcher_graph="@drawable/ic_record_button"-->
+    <!--android:title="Record" />-->
+
 </menu>
