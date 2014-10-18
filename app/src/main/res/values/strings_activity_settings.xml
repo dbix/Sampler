@@ -1,0 +1,54 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_autoupload">Enable automatic uploading</string>
+    <string name="pref_autoupload_description">Will start drive upload process immediately after
+        recording a clip</string>
+
+    <string name="pref_encoding">Encoding</string>
+    <string-array name="pref_encoding_list_titles">
+        <item>AAC Low Complexity (AAC-LC) audio codec</item>
+        <item>Enhanced Low Delay AAC (AAC-ELD) audio codec</item>
+        <item>AMR (Narrowband) audio codec</item>
+        <item>AMR (Wideband) audio codec</item>
+        <item>High Efficiency AAC (HE-AAC) audio codec</item>
+    </string-array>
+    <string-array name="pref_encoding_list_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_sample_rate">Encoding</string>
+    <string-array name="pref_sample_rate_list_titles">
+        <item>44,100 Hz</item>
+        <item>48,000 Hz</item>
+        <item>88,200 Hz</item>
+        <item>96,000 Hz</item>
+    </string-array>
+    <string-array name="pref_sample_rate_list_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_microphone">Encoding</string>
+    <string-array name="pref_microphone_list_titles">
+        <item>Default</item>
+        <item>Camcorder</item>
+    </string-array>
+    <string-array name="pref_microphone_list_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

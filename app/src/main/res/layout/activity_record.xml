@@ -1,0 +1,104 @@
+<RelativeLayout
+    android:id="@+id/layout_activity_record"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.asu.sampler.RecordActivity">
+
+    <ImageButton
+        android:id="@+id/image_button_record"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/record_button_selector"
+        android:focusable="true"/>
+
+    <ImageButton
+        android:id="@+id/image_button_open_drive"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/image_button_record"
+        android:layout_alignStart="@+id/seekBar"
+        android:background="@drawable/ic_google_drive"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonBar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <RelativeLayout
+        android:id="@+id/buttonBar"
+        style="@android:style/DeviceDefault.Light.ButtonBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/image_button_record"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/image_button_record"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonRewind"
+            style="@android:style/DeviceDefault.Light.ButtonBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="27dp"
+            android:layout_toStartOf="@+id/imageButtonPlay"
+            android:src="@drawable/ic_action_rewind"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonFastForward"
+            style="@android:style/DeviceDefault.Light.ButtonBar"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="31dp"
+            android:layout_toEndOf="@+id/imageButtonPlay"
+            android:src="@drawable/ic_action_fast_forward"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonPlay"
+            style="@android:style/DeviceDefault.Light.ButtonBar"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_action_play"/>
+
+    </RelativeLayout>
+
+    <!--style="?android:attr/borderlessButtonStyle"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:layout_width="75dp"-->
+    <!--android:layout_height="75dp"-->
+    <!--android:id="@+id/imageButtonRecord"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:src="@drawable/record_button_selector"/>-->
+
+    <!--android:src="@drawable/ic_record_button"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:clickable="true"-->
+    <!--android:adjustViewBounds="false"-->
+    <!--android:scaleType="centerInside"--> />
+
+</RelativeLayout>

@@ -30,8 +30,7 @@ public class Bytes
 
     public static short toShort(byte[] b)
     {
-        short n = 0;
-        n = (short) (((short) b[0] & 0xff) + (((short) b[1] & 0xff) << 8));
+        short n = (short) (((short) b[0] & 0xff) + (((short) b[1] & 0xff) << 8));
         return n;
     }
 
